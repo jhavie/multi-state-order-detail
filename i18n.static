@@ -1,0 +1,115 @@
+// namespace为变量作用域
+// attr格式为key=value
+
+# namespace
+
+order
+
+# create
+
+2020-12-07 18:00:35
+
+# attribute
+
+common.orderId = 订单ID
+common.change = 变更
+common.seeDetail = 查看详情
+common.confirm = 确定
+common.cancel = 取消
+
+common.createTime = 订单创建时间
+common.finTime = 订单生效时间
+common.suppName = 供应商
+common.depAddress = 出发地
+common.userCompanyName = 主办方
+common.actPlace = 目的地
+common.actTime = 行程时间
+common.peopleNum = 签约人数
+common.totalBudget = 采购总预算
+common.accountName = 收款账户
+common.accountNo = 收款账号
+common.bankName = 开户行
+common.bankBranchName = 开户行支行
+common.payType = 支付方式
+common.suppAmt = 供应商报价金额
+common.orderType = 下单类型
+common.orderAmtLabel = 订单金额
+common.isUnion = 联合办会
+common.costBearingMethodNames = 承担方式
+common.bearTypes = 参与方及承担金额
+common.billAmt = 账单金额
+common.remark = 订单说明
+common.file = 附件
+common.approvalDetail = 订单审批状态
+common.rejectReason = 退回原因
+common.none = 无
+common.suppPrepayRatio = 供应商填写预付款比例
+common.invoiceReq = 发票要求
+common.invoiceType = 发票类型
+common.invoiceMemo = 发票的备注
+common.invoiceRate = 税率
+
+common.applyTime = 申请时间
+common.beforeChange = 变更前
+common.afterChange = 变更后
+common.changeReason = 变更原因
+
+common.byRatio = 按比例
+common.byNumber = 按人数
+common.byAmt = 按金额
+
+common.withdrawn = 撤回
+common.withdrawnTip = 确定要撤回订单？
+common.fBidWithdrawnTip = 是否确认撤回该跟标订单？撤回后如需继续跟标，需再次和供应商进行签约确认
+
+common.revise = 修改
+common.reviseTip = 确定要修改订单？
+
+common.cancelOrder = 取消订单
+common.cancelOrderTip = 取消订单？
+
+common.confirmOrder = 确认下单
+common.confirmOrderTip = 确定要下单？
+
+common.signOff = 发起签报
+common.signOffTip = 确定要发起签报？
+
+common.suppConfirmOrder = 确认订单
+common.suppConfirmOrderTip = 确定订单？
+
+common.reject = 退回
+common.rejectTip = 确定要退回订单？
+
+done.status = 已生效
+done.suppdesc = 当前阶段可进行出行账单核对、开票，请及时上传账单和开具发票。
+done.staffdesc = 当前阶段可进行出行账单核对、开票、报销，若未收到账单，可跟供应商确认。
+
+onConfirm.status = 待确认
+onConfirm.desc = 等待供应商确认订单
+
+saved.status = 待下单
+saved.desc = 当前订单待提交给供应商确认
+
+returned.status = 已退回
+returned.desc = 供应商退回了订单
+
+onInitiate.status = 待发起签报
+onInitiate.desc = 供应商已确认了订单，等待您确认并发起签报
+
+approving.status = 审批中
+approving.desc = 订单签报审批中，可点击“查看详情”查看审批详情
+
+processing.status = 订单变更中
+processing.desc = 订单变更中，具体请查看订单详情的变更记录
+
+reject.status = 审批不通过
+reject.desc = 订单签报审批未通过，待进行再次确认或发起签报
+
+withdrawn.status = 已撤回
+withdrawn.desc = 订单已被撤回
+
+cancel.status = 已取消
+cancel.desc = 订单已取消成功
+
+onCorpConfirm.status = 待企业侧确认
+onCorpConfirm.desc = 订单等待采购方确认
